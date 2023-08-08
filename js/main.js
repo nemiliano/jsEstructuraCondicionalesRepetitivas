@@ -14,3 +14,17 @@ for(i=1; i<=cantidadDeGatos; i++){
     }
 }
 /******************************  Ejecicio B  ******************************/
+console.log('Ejecucio B:');
+var cantidadDeGatos = 5;
+var cantidadDePasos = 3;
+var gato ='🐈';
+var patitas ='🐾';
+var lineaGatuna= '';
+
+for(i=1; i<=cantidadDeGatos; i++){
+    lineaGatuna = 'Gato #' + i +': '+ gato + ' ';
+    for(j=0; j<cantidadDePasos; j++){
+        lineaGatuna += patitas;
+    }
+    console.log(lineaGatuna);
+}
